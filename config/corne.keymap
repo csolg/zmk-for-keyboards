@@ -106,9 +106,9 @@
 
         main {
             bindings = <
-&gresc        &kp Q               &kp W           &kp E             &kp R        &kp T        &kp Y        &kp U        &kp I                  &kp O                &kp P                    &kp LEFT_BRACKET
-&kp TAB       &kp A               &kp S           &kp D             &kp F        &kp G        &kp H        &kp J        &kp K                  &kp L                &kp SEMI                 &kp RIGHT_BRACKET
-&kp CAPSLOCK  &hm LEFT_COMMAND Z  &hm LEFT_ALT X  &hm LEFT_SHIFT C  &hm LCTRL V  &kp B        &kp N        &hm RCTRL M  &hm RIGHT_SHIFT COMMA  &hm RIGHT_ALT COMMA  &hm RIGHT_COMMAND SLASH  &kp APOSTROPHE
+&gresc        &kp Q               &kp W           &kp E             &kp R        &kp T        &kp Y        &kp U        &kp I                  &kp O                 &kp P                    &kp LEFT_BRACKET
+&kp TAB       &kp A               &kp S           &kp D             &kp F        &kp G        &kp H        &kp J        &kp K                  &kp L                 &kp SEMI                 &kp RIGHT_BRACKET
+&kp CAPSLOCK  &hm LEFT_COMMAND Z  &hm LEFT_ALT X  &hm LEFT_SHIFT C  &hm LCTRL V  &kp B        &kp N        &hm RCTRL M  &hm RIGHT_SHIFT COMMA  &hm RIGHT_ALT PERIOD  &hm RIGHT_COMMAND SLASH  &kp APOSTROPHE
                                                   &lt 4 TAB         &lt 1 SPACE  &lt 2 ENTER  &lt 2 ENTER  &lt 1 SPACE  &lt 3 BACKSPACE
             >;
 
