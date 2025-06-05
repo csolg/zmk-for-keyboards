@@ -137,10 +137,10 @@
 
         sym {
             bindings = <
-&trans  &kp F10       &kp F7       &kp F8        &kp F9        &trans  &trans  &kp N7        &kp N8        &kp N9       &kp N0          &trans
-&trans  &hm LGUI F11  &hm LALT F4  &hm LSHFT F5  &hm LCTRL F6  &trans  &trans  &hm RCTRL N4  &hm RSHFT N5  &hm RALT N6  &hm RGUI MINUS  &trans
-&trans  &kp F12       &kp F1       &kp F2        &kp F3        &trans  &trans  &kp N1        &kp N2        &kp N3       &kp EQUAL       &trans
-                                   &trans        &trans        &trans  &trans  &trans        &trans
+&trans  &kp N0          &kp N7        &kp N8        &kp N9        &trans  &trans  &kp N7        &kp N8        &kp N9       &kp N0          &trans
+&trans  &hm LGUI MINUS  &hm LALT N4   &hm LSHFT N5  &hm LCTRL N6  &trans  &trans  &hm RCTRL N4  &hm RSHFT N5  &hm RALT N6  &hm RGUI MINUS  &trans
+&trans  &kp EQUAL       &kp NUMBER_1  &kp N2        &kp N3        &trans  &trans  &kp N1        &kp N2        &kp N3       &kp EQUAL       &trans
+                                      &trans        &trans        &trans  &trans  &trans        &trans
             >;
 
             label = "Sym";
@@ -148,10 +148,10 @@
 
         nav {
             bindings = <
-&trans  &kp F1       &kp F2           &kp F3        &kp F4        &kp F5   &kp HOME  &kp PAGE_DOWN         &kp PAGE_UP         &kp END         &trans    &trans
-&trans  &hm LGUI F6  &hm LEFT_ALT F7  &hm LSHFT F8  &hm LCTRL F9  &kp F10  &kp LEFT  &hm RCTRL DOWN_ARROW  &hm RSHFT UP_ARROW  &hm RALT RIGHT  &kp RGUI  &trans
-&trans  &kp F11      &kp F12          &kp F13       &kp F14       &kp F15  &trans    &trans                &trans              &trans          &trans    &trans
-                                      &trans        &trans        &trans   &trans    &trans                &trans
+&trans       &kp F10       &kp F7           &kp F8        &kp F9        &trans  &kp HOME  &kp PAGE_DOWN         &kp PAGE_UP         &kp END         &trans    &trans
+&trans       &hm LGUI F11  &hm LEFT_ALT F4  &hm LSHFT F5  &hm LCTRL F6  &trans  &kp LEFT  &hm RCTRL DOWN_ARROW  &hm RSHFT UP_ARROW  &hm RALT RIGHT  &kp RGUI  &trans
+&bootloader  &kp F12       &kp F1           &kp F2        &kp F3        &trans  &trans    &trans                &trans              &trans          &trans    &bootloader
+                                            &trans        &trans        &trans  &trans    &trans                &trans
             >;
 
             label = "Nav";
