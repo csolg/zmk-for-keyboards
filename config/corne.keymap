@@ -137,9 +137,9 @@
 
         sym {
             bindings = <
-&trans  &kp F10       &kp F7       &kp F8        &kp F9        &trans  &trans  &kp N7        &kp N8              &kp N9             &kp N0          &trans
-&trans  &hm LGUI F11  &hm LALT F4  &hm LSHFT F5  &hm LCTRL F6  &trans  &trans  &hm RCTRL N7  &hm RSHFT NUMBER_8  &hm RALT NUMBER_9  &hm RGUI MINUS  &trans
-&trans  &kp F12       &kp F1       &kp F2        &kp F3        &trans  &trans  &kp N1        &kp N2              &kp N3             &kp EQUAL       &trans
+&trans  &kp F10       &kp F7       &kp F8        &kp F9        &trans  &trans  &kp N7        &kp N8        &kp N9       &kp N0          &trans
+&trans  &hm LGUI F11  &hm LALT F4  &hm LSHFT F5  &hm LCTRL F6  &trans  &trans  &hm RCTRL N4  &hm RSHFT N5  &hm RALT N6  &hm RGUI MINUS  &trans
+&trans  &kp F12       &kp F1       &kp F2        &kp F3        &trans  &trans  &kp N1        &kp N2        &kp N3       &kp EQUAL       &trans
                                    &trans        &trans        &trans  &trans  &trans        &trans
             >;
 
