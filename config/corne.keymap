@@ -128,7 +128,7 @@
         main {
             bindings = <
 &gresc     &kp Q       &kp W       &kp E        &kp R        &kp T        &kp Y        &kp U        &kp I            &kp O       &kp P               &kp LEFT_BRACKET
-&kp TAB    &hm LGUI A  &hm LALT S  &hm LSHFT D  &hm LCTRL F  &kp G        &kp H        &hm RCTRL J  &hm RSHFT K      &hm RALT L  &hm RGUI SEMICOLON  &kp RIGHT_BRACKET
+&kp TAB    &hml LGUI A  &hml LALT S  &hml LSHFT D  &hml LCTRL F  &kp G        &kp H        &hmr RCTRL J  &hmr RSHFT K      &hmr RALT L  &hmr RGUI SEMICOLON  &kp RIGHT_BRACKET
 &kp GRAVE  &kp Z       &kp X       &kp C        &kp V        &kp B        &kp N        &kp M        &kp COMMA        &kp DOT     &kp FSLH            &kp APOSTROPHE
                                    &lt 4 TAB    &lt 1 SPACE  &lt 2 ENTER  &lt 2 ENTER  &lt 1 SPACE  &lt 3 BACKSPACE
             >;
@@ -139,7 +139,7 @@
         sym {
             bindings = <
 &trans  &kp MINUS       &kp N7        &kp N8        &kp N9        &trans  &trans  &kp N7        &kp N8        &kp N9       &kp N0          &trans
-&trans  &hm LGUI EQUAL  &hm LALT N4   &hm LSHFT N5  &hm LCTRL N6  &trans  &trans  &hm RCTRL N4  &hm RSHFT N5  &hm RALT N6  &hm RGUI MINUS  &trans
+&trans  &hml LGUI EQUAL  &hml LALT N4   &hml LSHFT N5  &hml LCTRL N6  &trans  &trans  &hmr RCTRL N4  &hmr RSHFT N5  &hmr RALT N6  &hmr RGUI MINUS  &trans
 &trans  &kp N0          &kp NUMBER_1  &kp N2        &kp N3        &trans  &trans  &kp N1        &kp N2        &kp N3       &kp EQUAL       &trans
                                       &trans        &trans        &trans  &trans  &trans        &trans
             >;
@@ -150,7 +150,7 @@
         nav {
             bindings = <
 &trans       &kp F10       &kp F7           &kp F8        &kp F9        &trans  &kp HOME  &kp PAGE_DOWN         &kp PAGE_UP         &kp END         &trans    &trans
-&trans       &hm LGUI F11  &hm LEFT_ALT F4  &hm LSHFT F5  &hm LCTRL F6  &trans  &kp LEFT  &hm RCTRL DOWN_ARROW  &hm RSHFT UP_ARROW  &hm RALT RIGHT  &kp RGUI  &trans
+&trans       &hml LGUI F11  &hml LEFT_ALT F4  &hml LSHFT F5  &hml LCTRL F6  &trans  &kp LEFT  &hmr RCTRL DOWN_ARROW  &hmr RSHFT UP_ARROW  &hmr RALT RIGHT  &kp RGUI  &trans
 &bootloader  &kp F12       &kp F1           &kp F2        &kp F3        &trans  &trans    &trans                &trans              &trans          &trans    &bootloader
                                             &trans        &trans        &trans  &trans    &trans                &trans
             >;
