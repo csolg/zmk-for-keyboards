@@ -33,6 +33,7 @@
             flavor = "balanced";
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_LEFT_MODS";
+
             #binding-cells = <2>;
             tapping-term-ms = <280>;
             require-prior-idle-ms = <150>;
@@ -45,6 +46,7 @@
             flavor = "balanced";
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_RIGHT_MODS";
+
             #binding-cells = <2>;
             tapping-term-ms = <280>;
             require-prior-idle-ms = <150>;
