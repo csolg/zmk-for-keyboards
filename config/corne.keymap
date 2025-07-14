@@ -142,6 +142,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <3 4>;
         };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 12>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <24 12>;
+        };
     };
 
     keymap {
