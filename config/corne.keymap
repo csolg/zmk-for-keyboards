@@ -160,10 +160,10 @@
 
         sym {
             bindings = <
-&trans  &kp MINUS        &kp N7         &kp N8        &kp N9          &trans  &trans  &kp N7          &kp N8        &kp N9         &kp N0           &trans
-&trans  &hml LALT EQUAL  &hml LCTRL N4  &hml LGUI N5  &hml LSHIFT N6  &trans  &trans  &hmr RSHIFT N4  &hmr RGUI N5  &hmr RCTRL N6  &hmr RALT MINUS  &trans
-&trans  &kp N0           &kp NUMBER_1   &kp N2        &kp N3          &trans  &trans  &kp N1          &kp N2        &kp N3         &kp EQUAL        &trans
-                                        &trans        &trans          &trans  &trans  &trans          &trans
+&trans  &kp F10        &kp F7         &kp F8        &kp F9          &trans  &kp PLUS      &kp N7          &kp N8        &kp N9         &kp SLASH     &trans
+&trans  &hml LALT F11  &hml LCTRL F4  &hml LGUI F5  &hml LSHIFT F6  &trans  &kp MINUS     &hmr RSHIFT N4  &hmr RGUI N5  &hmr RCTRL N6  &kp ASTERISK  &trans
+&trans  &kp F12        &kp F1         &kp F2        &kp F3          &trans  &kp NUMBER_0  &kp N1          &kp N2        &kp N3         &kp DOT       &trans
+                                      &trans        &trans          &trans  &trans        &trans          &trans
             >;
 
             label = "Sym";
