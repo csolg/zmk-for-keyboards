@@ -202,10 +202,10 @@
 
         shorts {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &kp LC(LG(N7))  &kp LC(LG(N8))  &kp LC(LG(N9))  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &kp LC(LG(N4))  &kp LC(LG(N5))  &kp LC(LG(N6))  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LG(N0))  &kp LC(LG(N1))  &kp LC(LG(N2))  &kp LC(LG(N3))  &trans  &trans
-                        &trans  &trans  &trans  &trans          &trans          &trans
+&trans  &trans      &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &trans  &trans          &kp LC(LG(N7))  &kp LC(LG(N8))  &kp LC(LG(N9))  &trans  &trans
+&trans  &trans      &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &trans  &trans          &kp LC(LG(N4))  &kp LC(LG(N5))  &kp LC(LG(N6))  &trans  &trans
+&trans  &kp LG(N0)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &trans  &kp LC(LG(N0))  &kp LC(LG(N1))  &kp LC(LG(N2))  &kp LC(LG(N3))  &trans  &trans
+                                &trans      &trans      &trans  &trans          &trans          &trans
             >;
         };
     };
