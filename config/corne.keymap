@@ -171,6 +171,16 @@
             bindings = <&kp AT_SIGN>;
             key-positions = <10 11>;
         };
+
+        dot {
+            bindings = <&kp DOT>;
+            key-positions = <33 34>;
+        };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
