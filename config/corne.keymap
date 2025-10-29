@@ -181,6 +181,26 @@
             bindings = <&kp COMMA>;
             key-positions = <32 33>;
         };
+
+        multiply {
+            bindings = <&kp KP_MULTIPLY>;
+            key-positions = <2 3>;
+        };
+
+        divide {
+            bindings = <&kp KP_DIVIDE>;
+            key-positions = <26 27>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <8 9>;
+        };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
