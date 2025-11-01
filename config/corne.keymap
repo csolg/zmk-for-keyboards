@@ -199,7 +199,7 @@
 
         ampersand {
             bindings = <&kp AMPERSAND>;
-            key-positions = <32 33>;
+            key-positions = <34 35>;
         };
     };
 
